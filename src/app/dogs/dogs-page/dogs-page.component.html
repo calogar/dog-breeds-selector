@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-10 mt-3">
+        <h1>{{ "dogs.title" | translate }}</h1>
+        <app-selector
+            *ngIf="options"
+            [data]="options"
+            (select)="onSelect($event)"
+        ></app-selector>
+    </div>
+    <div class="col-2 mt-3">
+        <app-lang-selector></app-lang-selector>
+    </div>
+    <div class="col-12 mt-3" *ngIf="selected">
+        <app-dogs-list [breed]="selected.id"></app-dogs-list>
+    </div>
+</div>

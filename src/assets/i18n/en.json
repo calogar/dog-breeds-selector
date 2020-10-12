@@ -1,0 +1,6 @@
+{
+    "dogs": {
+        "title": "Dog Breeds Selector",
+        "results": "{{value}} results have been found."
+    }
+}

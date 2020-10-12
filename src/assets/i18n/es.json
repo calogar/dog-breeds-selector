@@ -1,0 +1,6 @@
+{
+    "dogs": {
+        "title": "Selector de Razas de Perros",
+        "results": "Se han encontrado {{value}} resultados."
+    }
+}
